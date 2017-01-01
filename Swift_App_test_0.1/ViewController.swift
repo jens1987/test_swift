@@ -3,7 +3,7 @@
 //  Swift_App_test_0.1
 //
 //  Created by Jens Kühnapfel on 18.12.16.
-//  Copyright © 2016 Jens Kühnapfel. All rights reserved...
+//  Copyright © 2016 Jens Kühnapfel. All rights reserved.
 //
 
 import UIKit
@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: Any) {
             tapCount = tapCount + 1
-        if tapCount >= 20 {
-                theLabel.text = ("You tapped the button 20 times")
+        if tapCount >= 30 {
+                theLabel.text = ("You tapped the button 30 times")
         }
         }
     
